@@ -1,0 +1,9 @@
+/* Custom colours: dark navy + indigo */
+:root{--navy:#0b1030;--accent:#7df3ff;--bs-dark-rgb:18,24,70;--bs-body-bg:#0b1030;--bs-primary:#5b4cf0;--bs-primary-rgb:91,76,240;--bs-link-color:#7df3ff}
+body{background:var(--navy)}
+.btn-primary{--bs-btn-bg:#5b4cf0;--bs-btn-border-color:#5b4cf0;--bs-btn-hover-bg:#4a3bd6;--bs-btn-hover-border-color:#4a3bd6}
+.site-nav,.site-footer{background:#080b24}
+.text-accent{color:var(--accent)}
+.card{--bs-card-bg:#121846}
+.bg-dark .card{--bs-card-bg:#0b1030}
+.site-footer a{color:#b8bde0;text-decoration:none}
